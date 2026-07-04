@@ -1,0 +1,26 @@
+name = "xavier"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+[assets]
+directory = "public"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "xavier"
+database_id = "PLACEHOLDER_RUN_wrangler_d1_create"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "PLACEHOLDER_RUN_wrangler_kv_create"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "xavier-files"
+
+[vars]
+APP_URL = "https://xavier.tames.workers.dev"
