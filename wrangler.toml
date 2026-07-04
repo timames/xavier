@@ -18,10 +18,9 @@ database_id = "1df894f0-2f35-40f0-863d-4f63b74eb7e7"
 binding = "SESSIONS"
 id = "ecab66f8a74e4299982dfbcad2168081"
 
-# R2 requires activation in dashboard: https://dash.cloudflare.com/?account=93507af9531302f59adb90db62557746
-# [[r2_buckets]]
-# binding = "FILES"
-# bucket_name = "xavier-files"
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "xavier-files"
 
 [vars]
 APP_URL = "https://xavier.tames.workers.dev"
